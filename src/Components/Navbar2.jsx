@@ -1,23 +1,19 @@
 import React from "react";
 import { Link } from "react-router";
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
-    <div className='bg-[url("https://i.postimg.cc/PfWmVyCk/Rectangle-1.png")] bg-cover bg-center h-84 z-0 relative'>
+    <div className='bg-[url("https://i.postimg.cc/PfWmVyCk/Rectangle-1.png")] bg-cover bg-center h-34 z-0 relative'>
       <img
         src="https://i.postimg.cc/15yDkFFV/Ellipse-5.png"
         alt="dot"
         className="absolute left-0 -top-6 z-1  xl:w-148 w-80 xl:h-102"
       />
-      <img
-        src="https://i.postimg.cc/Hn9XJYqL/Star-2.png"
-        alt="star"
-        className="absolute xl:right-140 right-20 bottom-6 w-32 h-32 z-1"
-      />
+    
 
       <nav className=" max-w-7xl mx-auto  flex flex-col justify-center  pt-10 z-50">
         {/* Top row: logo & auth links */}
-        <div className="  flex items-center justify-between text-white mb-5  xl:px-0 px-2" >
+        <div className="  flex items-center justify-between text-white mb-5  xl:px-0 px-2">
           <div className="flex items-center">
             <Link to="/">
               <img
@@ -68,48 +64,9 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <hr className=" border-0.6 border-gray-800"></hr>
-
-        <div className="  mt-6 xl:flex flex-row items-center gap-3 max-w-3xl w-full">
-          {/* Combined Dropdown + Input Box */}
-          <div className="flex xl:ml-0 ml-1 xl:w-120 w-100  p-2 rounded-lg overflow-hidden shadow-sm bg-[#373f31]">
-            {/* Input */}
-            <input
-              type="text"
-              placeholder="Search Your Needs"
-              className="flex-grow px-4 py-2 text-sm text-gray-300 focus:outline-none"
-            />
-            {/* Dropdown */}
-            <select className="bg-transparent text-sm text-white xl:px-4 py-2  focus:outline-none">
-              <option>Web Developer</option>
-              <option>UI/UX Designer</option>
-              <option>Backend Developer</option>
-            </select>
-            <button className="bg-green-500 xl:ml-2 rounded-full p-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                />
-              </svg>
-            </button>
-          </div>
-          {/* Outer Button */}
-          <button className="bg-green-500 xl:mt-0 mt-2  hover:bg-green-600 text-white px-5 py-4 rounded-3xl text-sm font-semibold">
-            Advanced Search
-          </button>
-        </div>
       </nav>
     </div>
   );
 };
 
-export default Navbar;
+export default Navbar2;

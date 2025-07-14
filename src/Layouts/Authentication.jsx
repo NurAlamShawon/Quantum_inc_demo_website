@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
+import Navbar2 from '../Components/Navbar2';
 import Footer from '../Components/Footer';
 import { Outlet } from 'react-router';
 
 const Authentication = () => {
     return (
         <div>
-            <Navbar/>
+            <Navbar2/>
             <Outlet/>
             <Footer/>
             
