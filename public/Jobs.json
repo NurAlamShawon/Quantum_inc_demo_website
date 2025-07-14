@@ -1,0 +1,104 @@
+[
+  {
+    "date": "Apr 30, 2024",
+    "title": "Website Design and Front-End Development",
+    "type": "Fixed Price Project",
+    "price": "$1,200-$1,400",
+    "description": "In this role, you will be responsible for conducting comprehensive SEO audits and implementing strategies to optimize websites...",
+    "tags": [
+      { "label": "Remote", "color": "bg-purple-500" },
+      { "label": "Senior level", "color": "bg-red-500" },
+      { "label": "2 Freelancer", "color": "bg-green-400" }
+    ],
+    "categories": ["App Design", "Art Generation", "Illustration"],
+    "extraCategories": 5,
+    "author": "Eamman Olio",
+    "buttonText": "Apply Now",
+    "buttonColor": "bg-green-500"
+  },
+  {
+    "date": "May 15, 2024",
+    "title": "Full Stack Developer Needed for Startup MVP",
+    "type": "Hourly Contract",
+    "price": "$25-$35/hr",
+    "description": "We're looking for a developer to build a scalable MVP using React and Node.js, integrating Firebase authentication and payment gateways.",
+    "tags": [
+      { "label": "Remote", "color": "bg-purple-500" },
+      { "label": "Mid level", "color": "bg-yellow-500" },
+      { "label": "1 Freelancer", "color": "bg-green-400" }
+    ],
+    "categories": ["Web Development", "Backend", "Frontend"],
+    "extraCategories": 2,
+    "author": "Sarah Munroe",
+    "buttonText": "Apply Now",
+    "buttonColor": "bg-blue-500"
+  },
+  {
+    "date": "June 2, 2024",
+    "title": "Logo and Brand Identity Design",
+    "type": "Fixed Price Project",
+    "price": "$500-$800",
+    "description": "Need a creative designer to develop a strong brand identity for a tech company including logos, business cards, and style guide.",
+    "tags": [
+      { "label": "Onsite", "color": "bg-gray-500" },
+      { "label": "Entry level", "color": "bg-blue-400" },
+      { "label": "1 Freelancer", "color": "bg-green-400" }
+    ],
+    "categories": ["Logo Design", "Branding", "Graphic Design"],
+    "extraCategories": 0,
+    "author": "Marco Allen",
+    "buttonText": "Apply Now",
+    "buttonColor": "bg-red-500"
+  },
+  {
+    "date": "June 18, 2024",
+    "title": "AI-Powered Chatbot Integration for Ecommerce",
+    "type": "Fixed Price Project",
+    "price": "$2,000-$2,500",
+    "description": "Looking for AI developers to integrate a GPT-powered chatbot into our ecommerce site with multilingual support and analytics dashboard.",
+    "tags": [
+      { "label": "Remote", "color": "bg-purple-500" },
+      { "label": "Expert level", "color": "bg-red-600" },
+      { "label": "3 Freelancer", "color": "bg-green-400" }
+    ],
+    "categories": ["AI Integration", "Chatbot", "Ecommerce"],
+    "extraCategories": 4,
+    "author": "Lana Syeed",
+    "buttonText": "Apply Now",
+    "buttonColor": "bg-indigo-500"
+  },
+  {
+    "date": "July 3, 2024",
+    "title": "Mobile App UI/UX Redesign",
+    "type": "Hourly Contract",
+    "price": "$35-$45/hr",
+    "description": "Redesign an existing mobile app UI/UX for a better user experience. Work with product and development teams.",
+    "tags": [
+      { "label": "Remote", "color": "bg-purple-500" },
+      { "label": "Senior level", "color": "bg-red-500" },
+      { "label": "2 Freelancer", "color": "bg-green-400" }
+    ],
+    "categories": ["UI/UX", "Mobile App", "Interaction Design"],
+    "extraCategories": 3,
+    "author": "Kevin Tran",
+    "buttonText": "Apply Now",
+    "buttonColor": "bg-yellow-500"
+  },
+  {
+    "date": "July 12, 2024",
+    "title": "WordPress Developer for Blog Optimization",
+    "type": "Fixed Price Project",
+    "price": "$800-$1,000",
+    "description": "Optimize performance, improve SEO, and redesign blog pages for a WordPress-based news platform. Must be familiar with Elementor.",
+    "tags": [
+      { "label": "Remote", "color": "bg-purple-500" },
+      { "label": "Intermediate level", "color": "bg-orange-400" },
+      { "label": "1 Freelancer", "color": "bg-green-400" }
+    ],
+    "categories": ["WordPress", "SEO", "Blog Design"],
+    "extraCategories": 1,
+    "author": "Nora Kim",
+    "buttonText": "Apply Now",
+    "buttonColor": "bg-pink-500"
+  }
+]

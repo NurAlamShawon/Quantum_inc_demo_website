@@ -252,7 +252,22 @@ const Registration = () => {
           to learn how we use your personal data.
         </p>
       </div>
-      <div className="xl:w-1/2 w-full ">
+        <div className="xl:w-1/2 w-full relative">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="green"
+          className="bg-[#1B1B1B]  top-10 right-63 size-12 rounded-full absolute"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M6 18 18 6M6 6l12 12"
+          />
+        </svg>
+
         <img
           src="https://i.postimg.cc/vTx4BzdY/Subtract.png"
           alt=""
