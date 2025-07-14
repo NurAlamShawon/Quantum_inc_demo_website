@@ -2,7 +2,6 @@ import {
   createBrowserRouter,
 
 } from "react-router";
-import JobListing from "./JobListing";
 import HomeLayout from "../Layouts/HomeLayout";
 import Authentication from "../Layouts/Authentication";
 import Login from "../Components/Login";
