@@ -27,7 +27,7 @@ const Login = () => {
        <img
         src="https://i.postimg.cc/HkrnR0p2/Ellipse-21.png"
         alt="dot"
-         className="absolute xl:left-100  xl:bottom-50  z-1 hidden xl:block   xl:w-100  xl:h-102"
+         className="absolute xl:left-105  xl:bottom-35  z-1 hidden xl:block   xl:w-100  xl:h-102 "
       />
       <div className="xl:w-1/2 bg-transparent w-full max-w-md mx-auto p-6  rounded shadow my-5">
         <form className="space-y-6" onSubmit={handlelogin}>
@@ -36,7 +36,7 @@ const Login = () => {
           </h1>
           <p className="font-semibold text-base text-white text-center">
             Don't Have An Account?
-            <Link to="registration" className="text-[#05AF2B] pl-2 cursor-pointer">
+            <Link to='/authentication/registration' className="text-[#05AF2B] pl-2 cursor-pointer">
               Signup
             </Link>{" "}
           </p>

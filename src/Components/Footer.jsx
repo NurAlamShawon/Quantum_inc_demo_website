@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -29,7 +30,9 @@ const Footer = () => {
 
       <div className=" max-w-7xl mx-auto  grid xl:grid-cols-4 grid-cols-1 ">
         <div className=" border-t-1 border-gray-800 pt-11 pb-22">
-          <img src="https://i.postimg.cc/SspGjvnD/image-1.png" alt="" />
+          <Link to="/" className="cursor-pointer">
+            <img src="https://i.postimg.cc/SspGjvnD/image-1.png" alt="" />
+          </Link>
         </div>
 
         <div className="pl-28 border-t-1 border-gray-800 pt-11 pb-22">

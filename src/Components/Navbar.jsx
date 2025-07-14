@@ -7,25 +7,28 @@ const Navbar = () => {
       <img
         src="https://i.postimg.cc/15yDkFFV/Ellipse-5.png"
         alt="dot"
-        className="absolute left-0 -top-6 z-1  xl:w-148 w-80 xl:h-102"
+        className="absolute xl:left-0 -top-6 z-0  xl:w-148 w-80 xl:h-82  "
       />
       <img
         src="https://i.postimg.cc/Hn9XJYqL/Star-2.png"
         alt="star"
-        className="absolute xl:right-140 right-20 bottom-6 w-32 h-32 z-1"
+        className="absolute xl:right-140 right-20 bottom-6 w-32 h-32 z-0"
       />
 
       <nav className=" max-w-7xl mx-auto  flex flex-col justify-center  pt-10 z-50">
         {/* Top row: logo & auth links */}
-        <div className="  flex items-center justify-between text-white mb-5  xl:px-0 px-2" >
+        <div className="  flex items-center justify-between text-white mb-5  xl:px-0 px-2">
           <div className="flex items-center">
-            <Link to="/">
-              <img
-                src="https://i.postimg.cc/SspGjvnD/image-1.png"
-                alt=""
-                className="xl:w-58 w-35 mr-5"
-              />
-            </Link>
+            <div className="flex items-center relative z-50">
+              <Link to="/">
+                <img
+                  src="https://i.postimg.cc/SspGjvnD/image-1.png"
+                  alt=""
+                  className="xl:w-58 w-35 mr-5 cursor-pointer"
+                />
+              </Link>
+            </div>
+
             <button className="border-green-500 flex p-2 border-2 font-semibold text-base text-green-500 rounded-2xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
