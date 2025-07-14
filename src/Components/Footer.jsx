@@ -7,7 +7,7 @@ const Footer = () => {
       <img
         src="https://i.postimg.cc/HkrnR0p2/Ellipse-21.png"
         alt="dot"
-        className="absolute left-25 bottom-0 z-1  w-100 h-102"
+        className="absolute left-25 bottom-10 z-1  xl:w-100 w-50 xl:h-102"
       />
       <div className="  max-w-7xl mx-auto  xl:flex flex-row items-center mb-12">
         <div className="xl:w-153 xl:mr-55">

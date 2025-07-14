@@ -23,7 +23,12 @@ const Registration = () => {
     }
   };
   return (
-    <div className='w-full xl:flex items-center flex-row m-10 bg-[url("https://i.postimg.cc/PfWmVyCk/Rectangle-1.png")] bg-cover bg-center'>
+    <div className='relative xl:m-12 my-5  xl:flex items-center flex-row  bg-[url("https://i.postimg.cc/PfWmVyCk/Rectangle-1.png")] bg-cover bg-center'>
+      <img
+        src="https://i.postimg.cc/HkrnR0p2/Ellipse-21.png"
+        alt="dot"
+        className="absolute xl:left-100  xl:bottom-50  z-1 hidden xl:block   xl:w-100  xl:h-102"
+      />
       <div className="xl:w-1/2 bg-transparent w-full max-w-md mx-auto mt-10 p-6  rounded shadow my-5">
         <div>
           <form className="space-y-6" onSubmit={handlelogin}>
@@ -252,14 +257,14 @@ const Registration = () => {
           to learn how we use your personal data.
         </p>
       </div>
-        <div className="xl:w-1/2 w-full relative">
+      <div className="xl:w-1/2 w-full relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="green"
-          className="bg-[#1B1B1B]  top-10 right-63 size-12 rounded-full absolute"
+          className="bg-[#1B1B1B]  xl:top-12 top-10 xl:right-13 right-10 xl:size-10 size-6 rounded-full absolute"
         >
           <path
             strokeLinecap="round"

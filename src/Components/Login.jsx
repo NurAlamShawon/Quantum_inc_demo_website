@@ -23,15 +23,20 @@ const Login = () => {
     }
   };
   return (
-    <div className='xl:m-12  my-4 w-full xl:flex items-center flex-row  bg-[url("https://i.postimg.cc/PfWmVyCk/Rectangle-1.png")] bg-cover bg-center'>
-      <div className=" border-amber-400 border-2 xl:w-1/2 bg-transparent w-full max-w-md mx-auto p-6  rounded shadow my-5">
+    <div className='relative xl:m-12 my-5  xl:flex items-center flex-row  bg-[url("https://i.postimg.cc/PfWmVyCk/Rectangle-1.png")] bg-cover bg-center'>
+       <img
+        src="https://i.postimg.cc/HkrnR0p2/Ellipse-21.png"
+        alt="dot"
+         className="absolute xl:left-100  xl:bottom-50  z-1 hidden xl:block   xl:w-100  xl:h-102"
+      />
+      <div className="xl:w-1/2 bg-transparent w-full max-w-md mx-auto p-6  rounded shadow my-5">
         <form className="space-y-6" onSubmit={handlelogin}>
           <h1 className="font-semibold text-2xl text-center text-white">
             Login your account
           </h1>
           <p className="font-semibold text-base text-white text-center">
             Don't Have An Account?
-            <Link to="registration" className="text-[#05AF2B] pl-2">
+            <Link to="registration" className="text-[#05AF2B] pl-2 cursor-pointer">
               Signup
             </Link>{" "}
           </p>
@@ -171,14 +176,14 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="xl:w-1/2 w-full relative border-amber-400 border-2">
+      <div className="xl:w-1/2 w-full relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="green"
-          className="bg-[#1B1B1B]  top-8 right-8 size-8 rounded-full absolute"
+           className="bg-[#1B1B1B]  xl:top-7 top-5 xl:right-11 right-6 xl:size-10 size-7 rounded-full absolute"
         >
           <path
             strokeLinecap="round"
@@ -190,7 +195,7 @@ const Login = () => {
         <img
           src="https://i.postimg.cc/vTx4BzdY/Subtract.png"
           alt=""
-          className="mx-auto p-10"
+          className="mx-auto p-5 "
         />
       </div>
     </div>
